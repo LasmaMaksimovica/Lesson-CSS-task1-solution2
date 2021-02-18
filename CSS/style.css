@@ -1,0 +1,27 @@
+div {
+    color: rgb(31, 150, 15);
+}
+p:first-of-type {
+    color: rgb(31, 150, 15);
+}
+[class="red-p"] {
+    color: rgb(228, 32, 32);
+}
+p:nth-of-type(2n+3) {
+    color: rgb(31, 150, 15);
+}
+[class="blue-p"]{
+    color: rgb(82, 17, 233);
+}
+[class="blue-p"] span {
+    color: rgb(253, 229, 15);
+}
+strong span {
+    color: rgb(223, 39, 177);
+}
+p:nth-last-child(2) {
+    color: rgb(247, 22, 153);
+}
+[class="super-strange-paragraph"]:hover span{
+    color: rgb(228, 32, 32);
+  }
